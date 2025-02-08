@@ -12,3 +12,5 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 
+vim.keymap.set("n", "<leader>o", "mao<esc>0<S-d>`a<cmd>delmarks a<cr>", { desc = "Add new line below" })
+
