@@ -4,7 +4,7 @@ return {
                 dependencies = {
                         "williamboman/mason.nvim",
                         "williamboman/mason-lspconfig.nvim",
-                        "neovim/nvim-lspconfig",
+                      "neovim/nvim-lspconfig",
                         "hrsh7th/nvim-cmp",
                         "hrsh7th/cmp-nvim-lsp",
                 },
@@ -65,12 +65,12 @@ return {
                         require("lspconfig").gopls.setup({
                                 capabilities = capabilities,
                         })
---                        require("lspconfig").biome.setup({
---                                capabilities = capabilities,
---                                on_attach = function(client, bufnr)
---                                        print('biome attached')
---                                end
---                        })
+                        require("lspconfig").docker_compose_language_service.setup({
+                                capabilities = capabilities,
+                        })
+                        require("lspconfig").dockerls.setup({
+                                capabilities = capabilities,
+                        })
                         local cmp = require("cmp")
 
                         cmp.setup({
