@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 return({
-=======
-return (
-{
->>>>>>> 46d23fd (added iron + surround)
     "kylechui/nvim-surround",
     version = "^3.0.0", -- Use for stability; omit to use `main` branch for the latest features
     event = "VeryLazy",
@@ -12,9 +7,4 @@ return (
             -- Configuration here, or leave empty to use defaults
         })
     end
-<<<<<<< HEAD
 })
-=======
-}
-)
->>>>>>> 46d23fd (added iron + surround)
