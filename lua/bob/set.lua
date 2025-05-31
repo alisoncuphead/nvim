@@ -10,3 +10,4 @@ vim.opt.smartindent = true
 vim.opt.scrolloff = 10
 
 vim.api.nvim_set_option("clipboard","unnamed")
+

@@ -18,3 +18,5 @@ end
 vim.keymap.set("n", "<leader>o", "mao<esc>0<S-d>`a<cmd>delmarks a<cr>", { desc = "Add new line below" })
 vim.keymap.set("n", "<leader>q", saveAndQuit, { desc = "save and quit buffer" })
 vim.keymap.set("n", '<leader>y', '"+y', { noremap = true, silent = true, desc = 'Yank to clipboard' })
+
+
